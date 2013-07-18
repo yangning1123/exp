@@ -1,0 +1,17 @@
+
+Procedure.h,159
+#define PROCEDURE_H6,69
+class Procedure8,90
+ Procedure(Procedure::Procedure11,117
+  int *array;Procedure::array19,383
+  int size;Procedure::size20,422
+
+main.cpp,63
+using std::cout;8,108
+using std::endl;9,125
+int main(12,144
+
+Procedure.cpp,83
+using std::deque;3,40
+double Procedure::FIFO(8,131
+double Procedure::LRU(32,805

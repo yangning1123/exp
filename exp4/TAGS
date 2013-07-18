@@ -1,0 +1,25 @@
+
+Procedure.h,522
+#define PROCEDURE_H2,20
+using std::vector;5,59
+class Procedure7,79
+    explicit Procedure(Procedure::Procedure10,105
+    struct disk_number_flagProcedure::disk_number_flag22,458
+    disk_number_flag(Procedure::disk_number_flag::disk_number_flag24,492
+	int disk_number;Procedure::disk_number_flag::disk_number26,581
+	bool flag;Procedure::disk_number_flag::flag27,599
+    vector<int> vec;Procedure::vec30,619
+    vector<int> dist_vec;Procedure::dist_vec31,680
+    const int number;Procedure::number32,728
+
+main.cpp,17
+int main(12,141
+
+Procedure.cpp,192
+using std::cout;6,100
+using std::endl;7,117
+using std::abs;8,134
+void Procedure::FCFS(10,169
+void Procedure::SSTF(34,800
+void Procedure::SCAN(88,2464
+double Procedure::average(120,3534

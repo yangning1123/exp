@@ -14,5 +14,5 @@ cycle.o: cycle.cpp
 	$(CC) $(CFLAGS) -c cycle.cpp
 
 clean:
-	rm exp1 $(OBJS) 
+	-rm -rf exp1 $(OBJS) 
 

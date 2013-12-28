@@ -53,7 +53,7 @@ namespace exp2 {
 	os << "0->";		// 起点
 	for (auto i = 0; path[i] != this->N - 1; i = path[i])
 	    os << path[i] << "->";
-	os << '9';		// 终点
+	os << this->N - 1;		// 终点
 	return os;
     }
 

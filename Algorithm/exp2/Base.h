@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <vector>
+#include <stdexcept>
 
 // 定义命名空间exp
 namespace exp2 {
@@ -43,7 +44,10 @@ namespace exp2 {
 	    std::vector<T> temp_vec;
 	    for (auto j = 0; j != N; ++j)
 	    {
+		// 异常检测
 		is >> distance;
+		if (is.fail())
+		    throw std::runtime_error("IO runtime error!");
 		temp_vec.push_back(distance);
 	    }
 	    vec.push_back(temp_vec);

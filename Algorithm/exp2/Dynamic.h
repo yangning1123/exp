@@ -25,7 +25,7 @@ namespace exp2 {
 	// 调用Base::read()并建立multimap映射
 	void read(std::istream&);  
 	// 动态规划处理函数
-	void Dynamic_fun();
+	void func();
 	// 输出函数
 	std::ostream& print(std::ostream&) const;
 	

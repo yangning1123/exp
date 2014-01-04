@@ -13,7 +13,7 @@ namespace exp2 {
     }
 
     template <typename T>
-    void Dynamic<T>::Dynamic_fun()
+    void Dynamic<T>::func()
     {
         // 计算cost[i]的值
 	for (int i = this->N - 2; i >= 0; --i)

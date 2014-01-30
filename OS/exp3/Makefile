@@ -1,5 +1,5 @@
 CC = g++
-CCFLAGS = -Wall 
+CCFLAGS = -pipe -Wall -Wextra -O3 -march=native
 
 OBJS = main.o Procedure.o
 EXEC = exp3

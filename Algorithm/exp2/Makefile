@@ -1,6 +1,6 @@
 # Makefile文件
 CXX      := g++
-CXXFLAGS := -std=c++0x -Wall -O2
+CXXFLAGS := -std=c++11 -Wall -Wextra -O3 -march=native
 OUTPUT   := exp2
 
 all:

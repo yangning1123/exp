@@ -1,5 +1,5 @@
 CC = clang++
-CCFLAGS = -Wall
+CCFLAGS = -pipe -Wall -Wextra -O3 -march=native
 OBJS = main.o Process.o Process_Block.o
 EXEC = exp2
 

@@ -1,5 +1,5 @@
-CC = clang++
-CFLAGS = -Wall
+CC = g++
+CFLAGS = -pipe -Wall -Wextra -O3 -march=native
 OBJS = main.o priority.o cycle.o
 
 exp1: $(OBJS)

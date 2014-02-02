@@ -48,10 +48,10 @@ void greedy()
 int main(int argc, char *argv[])
 {
     thread t1(dynamic);
-    thread t2(greedy);
-
     t1.join();
+
+    thread t2(greedy);
     t2.join();  
-  
+    
     return 0;
 }
